@@ -1,0 +1,202 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.main-page {
+  margin: 134px auto auto 270px;
+  display: flex;
+  gap: 400px;
+}
+@media (max-width: 1400px) {
+  .main-page {
+    gap: 100px;
+    transition: 0.3s;
+  }
+}
+@media (max-width: 1000px) {
+  .main-page {
+    display: block;
+    margin: 20px auto auto 70px;
+  }
+  .main-page .left-side {
+    width: fit-content;
+    margin-bottom: 20px;
+  }
+  .main-page .right-side {
+    width: fit-content;
+  }
+}
+/* left side start */
+.main-page .left-side h1 {
+  color: #4e5150;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  margin-bottom: 30px;
+}
+.main-page .left-side header p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 10px;
+}
+.main-page .left-side .info p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  color: #4f4f4f;
+  margin-bottom: 3px;
+}
+.main-page .left-side .info input {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: black;
+  border: 1px solid #828282;
+  right: 32px;
+  width: 278px;
+  padding-left: 33px;
+  height: 31px;
+  border-radius: 8px;
+}
+:-ms-input-placeholder {
+  color: black;
+}
+.main-page .left-side .info span {
+  color: #828282;
+  position: relative;
+  top: 5px;
+  left: 6px;
+}
+.main-page .left-side .Shipping-address .input:nth-child(1) {
+  color: black;
+}
+.main-page .left-side .info .input {
+  position: absolute;
+}
+.main-page .left-side .info {
+  margin-bottom: 20px;
+}
+.main-page .left-side .Shipping-address > p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 10px;
+}
+.main-page .left-side .Shipping-address .End {
+  display: flex;
+  gap: 10px;
+}
+.main-page .left-side .End input {
+  width: 115px;
+}
+.main-page .left-side .Foter input {
+  width: 18px;
+  height: 18px;
+  position: relative;
+  top: 3px;
+}
+.main-page .left-side .Foter button {
+  margin-top: 25px;
+  background: #f2994a;
+  border: solid 1px white;
+  color: white;
+  padding: 10px 32px;
+  border-radius: 6px;
+  position: relative;
+  right: -195px;
+}
+/* left side End */
+/* right side start */
+.main-page .right-side {
+  border-radius: 8px;
+  background: #f2f2f2;
+  padding: 27px;
+}
+.main-page .right-side > .slid {
+  display: flex;
+  margin-bottom: 28px;
+}
+.main-page .right-side .slid:nth-child(2) {
+  border-bottom: 1px solid #bdbdbd;
+  padding-bottom: 88px;
+  margin-bottom: 6px;
+}
+.main-page .right-side .slid img {
+  width: 139.71px;
+  height: 124.32px;
+  left: 20.77px;
+  top: 112.61px;
+  background: url(image.png);
+  transform: rotate(-0.02deg);
+  border-radius: 6px;
+  margin-right: 18px;
+}
+.main-page .right-side .slid p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #f2994a;
+  margin-right: 3px;
+}
+.main-page .right-side .slid h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 15px;
+  color: #4e5150;
+  margin-bottom: 8px;
+}
+.main-page .right-side .slid span {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 12px;
+  text-decoration-line: line-through;
+
+  color: #4e5150;
+}
+.main-page .right-side .slid .Price {
+  display: flex;
+}
+.main-page .right-side .R-foter {
+  display: flex;
+}
+.main-page .right-side .R-foter:not(:last-child) {
+  border-bottom: 1px solid #bdbdbd;
+  padding-bottom: 5px;
+  margin-bottom: 7px;
+}
+.main-page .right-side .R-foter p {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #333333;
+}
+.main-page .right-side .R-foter span {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: right;
+  color: #333333;
+}
+.main-page .right-side .R-foter .f-x {
+  flex: 1;
+}
+/* right side End */
